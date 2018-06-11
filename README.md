@@ -7,3 +7,14 @@ Doing some learning from this [Youtube Link](https://www.youtube.com/watch?v=m0T
 </br>
 [Scott Tolinski and Wes Boss Podcast](https://syntax.fm/)</br>
 [LevelUpTuts Youtube Channel](https://www.youtube.com/channel/UCyU5wkjgQYGRB0hIHMwm2Sg)</br>
+
+# Lets get started
+
+Install ChoCho for `PowerShell`</br>
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+Install `Meteor`
+```
+choco install meteor
+```
