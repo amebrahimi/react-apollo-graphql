@@ -14,7 +14,21 @@ Install ChoCho for `PowerShell`</br>
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-Install `Meteor`
+Install `Meteor`:
 ```
 choco install meteor
+```
+Install bare `Meteor` App (Meteor with less packages):
+```
+meteor create apollo --bare
+```
+
+## Dependencies
+
+```
+npm install --save react react-dom
+```
+To Resolutions.graphql files work:
+```
+npm install --save-dev babel-plugin-inline-import
 ```
