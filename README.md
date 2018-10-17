@@ -32,3 +32,5 @@ To Resolutions.graphql files work:
 ```
 npm install --save-dev babel-plugin-inline-import
 ```
+
+Something new
